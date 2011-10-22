@@ -11,8 +11,8 @@
     <property name="source" value="1.6"/>
     <path id="JSkills.classpath">
         <pathelement location="bin"/>
-        <pathelement location="lib/testng.jar"/>
-        <pathelement location="lib/ejml-0.11.jar"/>
+        <pathelement location="lib/testng-6.2.jar"/>
+        <pathelement location="lib/ejml-0.17.jar"/>
         <pathelement location="lib/lombok.jar"/>
     </path>
     <target name="init">

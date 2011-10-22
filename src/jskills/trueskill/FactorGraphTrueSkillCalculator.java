@@ -8,6 +8,8 @@ import java.util.EnumSet;
 import java.util.List;
 import java.util.Map;
 
+import org.ejml.simple.SimpleMatrix;
+
 import jskills.GameInfo;
 import jskills.Guard;
 import jskills.IPlayer;
@@ -17,8 +19,6 @@ import jskills.RankSorter;
 import jskills.Rating;
 import jskills.SkillCalculator;
 import jskills.numerics.Range;
-
-import org.ejml.data.SimpleMatrix;
 
 /**
  * Calculates TrueSkill using a full factor graph.

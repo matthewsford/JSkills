@@ -3,7 +3,7 @@ package jskills.numerics;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-import org.ejml.data.SimpleMatrix;
+import org.ejml.simple.SimpleMatrix;
 import org.testng.annotations.Test;
 
 public class MatrixTests
