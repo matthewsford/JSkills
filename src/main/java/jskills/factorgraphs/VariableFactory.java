@@ -10,7 +10,7 @@ public class VariableFactory<TValue> {
     }
 
     public Variable<TValue> createBasicVariable(String nameFormat, Object... args) {
-        return new Variable<TValue>(String.format(nameFormat, args), 
-                                    variablePriorInitializer.eval());
+        return new Variable<TValue>(variablePriorInitializer.eval(), String.format(nameFormat, args), 
+                                    args);
     }
 }

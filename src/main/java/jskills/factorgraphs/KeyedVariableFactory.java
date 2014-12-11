@@ -7,8 +7,7 @@ public class KeyedVariableFactory<TKey, TValue> extends VariableFactory<TValue> 
     }
     
     public KeyedVariable<TKey, TValue> createKeyedVariable(TKey key, String nameFormat, Object... args) {
-        return new KeyedVariable<TKey, TValue>(key, 
+        return new KeyedVariable<TKey, TValue>(key, variablePriorInitializer.eval(),
                                                String.format(nameFormat, args), 
-                                               variablePriorInitializer.eval());
-    }
-}
+                                               args);
+    }}
