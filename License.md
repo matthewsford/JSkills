@@ -1,19 +1,22 @@
-﻿The core ideas used in this nsp.JSkills project were described in 
-"TrueSkill (TM): A Bayesian Skill Rating System" available at 
-http://research.microsoft.com/apps/pubs/default.aspx?id=67956
+﻿The core ideas used in this JSkills project were described in 
+["TrueSkill (TM): A Bayesian Skill Rating System"](http://research.microsoft.com/apps/pubs/default.aspx?id=67956)
 
 The authors of the above paper have asked for a link to that article
 as attribution in derived works.
 
-Some concepts were based on sample F# code that was written by Ralf Herbrich
-Copyright (c) 2007, 2008 Microsoft Research Ltd, available at
-http://blogs.technet.com/apg/archive/2008/06/16/trueskill-in-f.aspx
+Use of this code is likely subject to patent [Determining Relative Skills of Players](http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&s1=20090227313.PGNR.).
+
+Some concepts were based on (sample F# code that was written by Ralf Herbrich
+Copyright Ⓒ 2007, 2008 Microsoft Research Ltd)[http://blogs.technet.com/apg/archive/2008/06/16/trueskill-in-f.aspx]
 
 All the C# code in this nsp.JSkills project is
-Copyright (c) 2010 Jeff Moser <jeff@moserware.com>
+Copyright Ⓒ 2010 Jeff Moser <jeff@moserware.com>
 
 All the Java code in this nsp.JSkills project is
-Copyright (c) 2010 Nate Parsons <parsons.nate@gmail.com>
+Copyright Ⓒ 2010 Nate Parsons <parsons.nate@gmail.com>
+
+Modifications to the Java code in the matthewsford/JSkills project is
+Copyright Ⓒ 2014 Matthew Ford <matthew@matthewford.us>
  
 Redistribution and use in source and binary forms, with or without modification, are
 permitted provided that the following conditions are met:
@@ -37,4 +40,4 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 The views and conclusions contained in the software and documentation are those of the
 authors and should not be interpreted as representing official policies, either expressed
-or implied, of Jeff Moser or Nate Parsons.
+or implied, of Jeff Moser, Nate Parsons, or Matthew Ford.
